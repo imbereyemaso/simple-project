@@ -1,2 +1,2 @@
 # simple-project
-This repsitory contains a simple project 
+This repository contains a simple project i have designed
