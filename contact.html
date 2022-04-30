@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+.bb{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img.jpg);
+	font-size: 14px;
+}
+.contact{
+	width: 80%;
+	margin: 50px auto;
+}
+.contact-box{
+	display: flex;
+}
+.left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+}
+.right{
+	flex-basis: 40%;
+	padding: 40px;
+}
+h1{
+	margin-bottom: 10px;
+}
+.contact p{
+	margin-bottom: 40px;
+}
+.input-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row .input-group{
+	flex-basis: 45%;
+}
+input{
+	width: 65%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+}
+textarea{
+	width: 65%;
+	border:1px solid #ccc;
+	outline: none;
+	padding:10px;
+	box-sizing: border-box;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: lightgrey;
+}
+button{
+	background-color: blue;
+	width: 100px;
+	border: none;
+	outline: none;
+	color: #fff;
+	height: 35px;
+	border-radius: 30px;
+	margin-top: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.left h3{
+	color:lightgrey;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.right h3{
+	color:#fff;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+tr td:first-child{
+	padding-right: 20px;
+}
+tr td{
+	padding-top: 20px;
+}
+.rwa{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img.jpg);
+	color: #fff;
+	height: 60px;
+	font-size: x-large;
+}
+</style>
+</head>
+<body>
+<div class="rwa">
+		<p>RWANDA</p>
+	</div>
+	<div class="bb">
+<div class="contact">
+<h1>Connect With Us</h1>
+<p>we would like to respond to your quries and help you to succeed. So feel free to get in touch with us</p>
+</p>
+</div>
+<div class="contact-box">
+	<div class="left">
+		<h3>Send Your Queries</h3>
+		<form>
+			<div class="input-row">
+				<div class="input-group">
+					<label>Names</label>
+					<input type="text" placeholder="Enter your names">
+				</div>
+				<div class="input-group">
+					<label>Phone</label>
+					<input type="text" placeholder="Your phone number">
+				</div>
+				<div class="input-group">
+					<label>Email</label>
+					&nbsp&nbsp<input type="text" placeholder="Your email">
+				</div>
+				<div class="input-group">
+					<label>Subject</label>
+					<input type="text" placeholder="Product">
+				</div>
+			</div>
+			<label>Message</label>
+			<textarea rows="3" placeholder="write your message"></textarea><br>
+			<button type="submit">SEND</button>
+		</form>
+	</div>
+	<div class="right">
+		<h3>Reach us</h3>
+		<table>
+			<tr>
+				<td>Email</td>
+				<td>gentlemanimbereyemaso@gmail.com</td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td>+250 782 340 767</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td>Kigali-Rwanda, Kicukiro </td>
+			</tr>
+		</table>
+	</div>
+</div>
+</div>
+</body>
+</html>
